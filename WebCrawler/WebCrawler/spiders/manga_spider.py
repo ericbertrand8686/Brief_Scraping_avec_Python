@@ -2,8 +2,6 @@ import string
 import scrapy
 from scrapy import Request
 
-
-
 class MangaBaseSpider(scrapy.Spider):
 
     name = "Manga"
@@ -26,3 +24,4 @@ class MangaBaseSpider(scrapy.Spider):
         next_urls = response.xpath("//div[@class='spaceit']//a/@href").extract()
         for next_url in next_urls:
             yield Request(response.urljoin(next_url), callback=self.parse_anime_list_page)
+
