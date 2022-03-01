@@ -1,5 +1,5 @@
 # Brief_Scraping_avec_Python
-#
+
 ## Livrables :
 ##
 ### 3 spiders : 2 pour les Workshops et 1 pour le brief
@@ -20,7 +20,7 @@ Puis on invoque le spider : scrapy crawl muzeo -o muzeo_data.jsonlines
 
 ### Limitations
 Le prix et le délai de fabrication ne se laissent pas "scraper" malgré le soin prix pour collecter les bons xpaths.  
-
+###
 ## Contexte du projet  
 ##
 Vous souhaitez récuperer des données pour votre futur projet. Vous remarquez rapidement que tout ce dont vous avez besoin se trouve sur des sites internet.  
