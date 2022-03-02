@@ -5,7 +5,7 @@
 ### 3 spiders : 2 pour les Workshops et 1 pour le brief
 
 3 dossiers de projets ont été crées :  
--2 dossiers pour les Workshop (tutorial et WebCrawler)  
+-2 dossiers pour les Workshops (tutorial et WebCrawler)  
 -1 dossier pour le brief principal (brief_muzeo_scraping)  
 
 Dans le répertoire racine, 2 notebooks ont été crées pour **visualiser** le contenu des fichiers .jsonlines générés par les spiders.  
