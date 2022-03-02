@@ -4,7 +4,7 @@
 
 ### 3 spiders : 2 pour les Workshops et 1 pour le brief
 
-3 dossiers de projets ont été crées :
+3 dossiers de projets ont été crées :  
 * 2 pour les Workshop (tutorial et WebCrawler)
 * 1 pour le brief principal (brief_muzeo_scraping)
 
@@ -32,8 +32,7 @@ L'après midi vous allez devoir mettre en pratique ce que vous avez vu le matin,
 https://fr.muzeo.com/  
 
 Pour cela vous disposez d'un documents avec plusieurs dizaines d'URL correpondant chacune à produit.
-Vous allez devoir concevoir un code vous permetant de recuperer ces informations pour chaques produit :
-
+Vous allez devoir concevoir un code vous permetant de recuperer ces informations pour chaques produit :  
 * Titre  
 * Prix  
 * Delai de fabrication  
