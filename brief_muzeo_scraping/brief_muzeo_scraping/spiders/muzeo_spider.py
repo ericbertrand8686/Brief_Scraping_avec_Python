@@ -9,10 +9,13 @@ class muzeoSpider(scrapy.Spider):
     def start_requests(self):
 
         res = []
+        
         with open("5d952d11-046e-4a51-b29e-7d8b469435bf.txt") as f :
              urls = [url.strip()[1:-1] for url in f.readlines()]
+             # le [1:-1] permet d'éliminer les quotes " de l'url qui perturbent la méthode GET
+             
         
-        urls=urls[0:10]
+        # urls=urls[0:10] # inactivé, utile pour certains test à petite échelle
 
         for url in urls:
             res.append(scrapy.Request(url=url, callback=self.parse))

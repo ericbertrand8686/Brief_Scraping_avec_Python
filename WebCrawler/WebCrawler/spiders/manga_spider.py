@@ -12,9 +12,6 @@ class MangaBaseSpider(scrapy.Spider):
         return (Request(url, callback=self.parse_manga_list_page) for url in response.xpath(xp).extract())
 
 
-
-
-
     def parse_manga_list_page(self, response):
         for tr_sel in response.css('div.js-categories-seasonal tr ~ tr'):
             yield {
@@ -24,7 +21,6 @@ class MangaBaseSpider(scrapy.Spider):
                 "episodes": tr_sel.css('td:nth-child(4)::text').extract_first().strip(), 
                 "rating": tr_sel.css('td:nth-child(5)::text').extract_first().strip()
             }
-
         next_urls = response.xpath("//div[@class='spaceit']//a/@href").extract()
         for next_url in next_urls:
             yield Request(response.urljoin(next_url), callback=self.parse_anime_list_page)
