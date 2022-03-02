@@ -9,14 +9,15 @@
 -1 dossier pour le brief principal (brief_muzeo_scraping)  
 
 Dans le répertoire racine, 2 notebooks ont été crées pour **visualiser** le contenu des fichiers .jsonlines générés par les spiders.  
--Workshop2_display_jsonline2DF.ipynb pour le Workshop Manga  
--Brief_display_jsonline2DF copy.ipynb pour le brief  
+-Workshop2_display_jsonline.ipynb pour le Workshop Manga  
+-Brief_display_jsonline.ipynb pour le brief  
 
 ### Création de la liste pour le brief
 Le fichier du spider est muzeo_spider.py et le "name" permettant d'appeler le spider est "muzeo".  
-
+Ouvrir un terminal de ligne de commande dans le dossier racine du repo.  
 Pour créer le  fichier on passe de la racine du repo dans le répertoire du projet : cd brief_muzeo_scraping  
 Puis on invoque le spider : scrapy crawl muzeo -o muzeo_data.jsonlines  
+En cas de bug, redémarrer VScode qui parfois ne trouve pas la liste des url.  
 
 ### Limitations
 Le prix et le délai de fabrication ne se laissent pas "scraper" malgré le soin pris pour collecter les bons xpaths.  
