@@ -8,9 +8,9 @@
 -2 dossiers pour les Workshop (tutorial et WebCrawler)  
 -1 dossier pour le brief principal (brief_muzeo_scraping)  
 
-Dans le répertoire racine, 2 notebooks ont été crées pour visualier le contenu des fichiers .jsonlines générés par les spiders.
-- Workshop2_display_jsonline2DF.ipynb pour le Workshop Manga
-- Brief_display_jsonline2DF copy.ipynb pour le brief
+Dans le répertoire racine, 2 notebooks ont été crées pour **visualiser** le contenu des fichiers .jsonlines générés par les spiders.  
+-Workshop2_display_jsonline2DF.ipynb pour le Workshop Manga  
+-Brief_display_jsonline2DF copy.ipynb pour le brief  
 
 ### Création de la liste pour le brief
 Le fichier du spider est muzeo_spider.py et le "name" permettant d'appeler le spider est "muzeo".  
