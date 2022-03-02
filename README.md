@@ -5,10 +5,8 @@
 ### 3 spiders : 2 pour les Workshops et 1 pour le brief
 
 3 dossiers de projets ont été crées :  
-
-*2 pour les Workshop (tutorial et WebCrawler)
-
-*1 pour le brief principal (brief_muzeo_scraping)
+-2 dossiers pour les Workshop (tutorial et WebCrawler)
+-1 dossier pour le brief principal (brief_muzeo_scraping)
 
 Dans le répertoire racine, 2 notebooks ont été crées pour visualier le contenu des fichiers .jsonlines générés par les spiders.
 - Workshop2_display_jsonline2DF.ipynb pour le Workshop Manga
@@ -35,10 +33,10 @@ https://fr.muzeo.com/
 
 Pour cela vous disposez d'un documents avec plusieurs dizaines d'URL correpondant chacune à produit.
 Vous allez devoir concevoir un code vous permetant de recuperer ces informations pour chaques produit :  
-* Titre  
-* Prix  
-* Delai de fabrication  
-* Url de l'image  
+-Titre  
+-Prix  
+-Delai de fabrication  
+-Url de l'image  
 
 ### Modalités pédagogiques  
 Une journée.
