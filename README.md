@@ -19,7 +19,7 @@ Pour créer le  fichier on passe de la racine du repo dans le répertoire du pro
 Puis on invoque le spider : scrapy crawl muzeo -o muzeo_data.jsonlines  
 
 ### Limitations
-Le prix et le délai de fabrication ne se laissent pas "scraper" malgré le soin prix pour collecter les bons xpaths.  
+Le prix et le délai de fabrication ne se laissent pas "scraper" malgré le soin pris pour collecter les bons xpaths.  
 ###
 ## Contexte du projet  
 
