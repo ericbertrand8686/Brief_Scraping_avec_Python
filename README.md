@@ -6,9 +6,9 @@
 
 3 dossiers de projets ont été crées :  
 
-- 2 pour les Workshop (tutorial et WebCrawler)
+* 2 pour les Workshop (tutorial et WebCrawler)
 
-- 1 pour le brief principal (brief_muzeo_scraping)
+* 1 pour le brief principal (brief_muzeo_scraping)
 
 Dans le répertoire racine, 2 notebooks ont été crées pour visualier le contenu des fichiers .jsonlines générés par les spiders.
 - Workshop2_display_jsonline2DF.ipynb pour le Workshop Manga
