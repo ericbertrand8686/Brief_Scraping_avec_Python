@@ -9,11 +9,15 @@ class muzeoSpider(scrapy.Spider):
     def start_requests(self):
 
         res = []
+        
         with open("5d952d11-046e-4a51-b29e-7d8b469435bf.txt") as f :
              urls = [url.strip()[1:-1] for url in f.readlines()]
+             # le [1:-1] permet d'éliminer les quotes " de l'url qui perturbent la méthode GET
+             
         
-        urls=urls[0:10]
-
+        # urls=urls[0:10] # inactivé, utile pour certains tests à petite échelle
+        
+        # on invoque un parse pour chaque url de la liste
         for url in urls:
             res.append(scrapy.Request(url=url, callback=self.parse))
 
@@ -21,8 +25,11 @@ class muzeoSpider(scrapy.Spider):
 
 
     def parse(self, response):
+        
+        # une regex pour l'url de l'image
         reurl= r"https?:\/\/.+[\?\\]"
-
+        
+        # préparation du résultat du parse
         yield {
                 "Titre":  response.xpath('//title/text()').extract_first(),
                 "ID produit": response.xpath( "//span[@id='ref_product']/text()").extract_first(),
