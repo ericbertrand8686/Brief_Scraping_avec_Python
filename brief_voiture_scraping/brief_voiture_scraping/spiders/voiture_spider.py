@@ -2,8 +2,12 @@ import string
 import scrapy
 import re
 
-class muzeoSpider(scrapy.Spider):
+class voitureSpider(scrapy.Spider):
 
+    custom_settings = {
+    'ROBOTSTXT_OBEY': False
+    }
+    
     name = "voiture"
     
     def start_requests(self):
