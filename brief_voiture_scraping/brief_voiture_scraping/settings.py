@@ -1,4 +1,4 @@
-# Scrapy settings for brief_muzeo_scraping project
+# Scrapy settings for brief_voiture_scraping project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'brief_muzeo_scraping'
+BOT_NAME = 'brief_voiture_scraping'
 
-SPIDER_MODULES = ['brief_muzeo_scraping.spiders']
-NEWSPIDER_MODULE = 'brief_muzeo_scraping.spiders'
+SPIDER_MODULES = ['brief_voiture_scraping.spiders']
+NEWSPIDER_MODULE = 'brief_voiture_scraping.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'brief_muzeo_scraping (+http://www.yourdomain.com)'
+#USER_AGENT = 'brief_voiture_scraping (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'brief_muzeo_scraping.middlewares.BriefMuzeoScrapingSpiderMiddleware': 543,
+#    'brief_voiture_scraping.middlewares.BriefVoitureScrapingSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'brief_muzeo_scraping.middlewares.BriefMuzeoScrapingDownloaderMiddleware': 543,
+#    'brief_voiture_scraping.middlewares.BriefVoitureScrapingDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'brief_muzeo_scraping.pipelines.BriefMuzeoScrapingPipeline': 300,
+#    'brief_voiture_scraping.pipelines.BriefVoitureScrapingPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

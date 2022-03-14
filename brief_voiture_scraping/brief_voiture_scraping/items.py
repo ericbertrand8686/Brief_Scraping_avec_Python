@@ -6,7 +6,7 @@
 import scrapy
 
 
-class BriefMuzeoScrapingItem(scrapy.Item):
+class BriefVoitureScrapingItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
